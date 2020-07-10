@@ -10,4 +10,5 @@ class ClonePagesController < ApplicationController
   
   def upload_page
   end
+  
 end

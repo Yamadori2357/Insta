@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get '/search_page', to: 'clone_pages#search_page'
   get '/my_page',     to: 'clone_pages#my_page'
   get '/upload_page', to: 'clone_pages#upload_page'
-  get '/sighup',      to: 'users#new'
+  get '/signup',      to: 'users#new'
+  
+  resources :users
 
 end
