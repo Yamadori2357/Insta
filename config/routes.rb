@@ -9,10 +9,11 @@ Rails.application.routes.draw do
   get    '/login',    to: 'sessions#new'
   post   '/login',    to: 'sessions#create'
   delete '/logout',   to: 'sessions#destroy'
-  
   resources :users
   
   get '/users/:id/password_edit',to:'users#password_edit', as: 'password_edit_user'
   patch '/users/:id/password_edit',  to:'users#password_update', as: 'password_update'
+  resources :microposts,          only: [:create, :destroy]
+  resources :account_activations, only: [:edit]
 
 end
