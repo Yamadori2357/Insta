@@ -1,24 +1,5 @@
-# README
+:自分が苦労した点
+パスワードの変更するためにform_withのactionを変えるのに長時間かかった
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+:学んだ点
+エラーが出てもエラーを読んだり調べたりすることで謎が分かり、知見も溜まっていく感覚が少し感じられた
