@@ -9,11 +9,6 @@ class ClonePagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get search_page" do
-    get search_page_path
-    assert_response :success
-  end
-
   test "should get my_page" do
     get my_page_path
     assert_response :success
