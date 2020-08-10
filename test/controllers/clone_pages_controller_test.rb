@@ -14,9 +14,6 @@ class ClonePagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
   
-  test "should get upload_page" do
-    get upload_page_path
-    assert_response :success
-  end
+
 
 end
