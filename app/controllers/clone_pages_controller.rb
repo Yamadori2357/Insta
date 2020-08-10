@@ -6,11 +6,7 @@ class ClonePagesController < ApplicationController
     end
   end
 
-  def search_page
-  end
 
-  def my_page
-  end
   
 
   
