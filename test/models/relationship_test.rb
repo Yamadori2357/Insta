@@ -11,9 +11,6 @@ class RelationshipTest < ActiveSupport::TestCase
     assert @relationship.valid?
   end
 
-  test "should require a follower_id" do
-    @relationship.follower_id = nil
-    assert_not @relationship.valid?
-  end
+
 
 end
