@@ -7,9 +7,6 @@
         <li><%= link_to "検索",   search_page_path%></li>
         <% if logged_in? %>
           <li><%= link_to "マイページ", current_user %></li>]
-        <% else %>
-          <li><%= link_to "ログイン", login_path %></li>
-        <% end %>
       </ul>
     </nav>
   </div>
