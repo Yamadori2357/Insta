@@ -6,7 +6,6 @@ class ActiveSupport::TestCase
   parallelize(workers: :number_of_processors)
   
   fixtures :all
-
   # テストユーザーがログイン中の場合にtrueを返す
   def is_logged_in?
     !session[:user_id].nil?
@@ -25,4 +24,6 @@ class ActionDispatch::IntegrationTest
                                           password: password,
                                           remember_me: remember_me } }
   end
+  # Add more helper methods to be used by all tests here...
+
 end
